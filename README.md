@@ -1,9 +1,14 @@
 # wasm-web
 
+## Setup
+
+```shell=
+make init
+```
+
 ## Demo
 
 ```shell=
-cd web
 make build
 make launch
 ```

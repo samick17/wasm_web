@@ -1,5 +1,9 @@
 MAKEFLAGS += --silent
 
+init:
+	npm i serve pug-cli -g
+	cd web && npm i
+
 build:
 	cd lib_wasm && \
 		wasm-pack build --target web
